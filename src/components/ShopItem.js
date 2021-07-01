@@ -12,7 +12,7 @@ const ShopItem = (props) => {
       </div>
       <div className="divider"></div>
       <div className="purchase-info">
-        <div className="price">{`${props.item.currency}${props.item.price}`}</div>
+        <div className="price">{`${props.item.currency}${props.item.price}.00`}</div>
         <button>Добавить в корзину</button>
       </div>
     </div>
